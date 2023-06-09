@@ -42,6 +42,11 @@ export const constantRoutes = [
     component: () => import('@/views/404'),
     hidden: true
   },
+  {
+    path: '/starchat',
+    component: () => import('@/views/starchat'),
+    hidden: false
+  },
 
   {
     path: '/',
